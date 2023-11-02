@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Água</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Quanto de água devo tomar?</h1>
+    </header>
+    <section>
+        <div id="calculos">
+            <p>Digite seu peso em Kilos (Kg):</p>
+            <input type="number" name="peso" id="peso" step="0.01" onkeydown="evento(event)">
+            <input type="button" value="Verificar" onclick="verificar()">
+        </div>
+        <div id="res">
+
+        </div>
+        <main>
+            <p></p>
+        </main>
+    </section>
+    <footer>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
